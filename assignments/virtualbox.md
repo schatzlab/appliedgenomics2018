@@ -69,5 +69,5 @@ In case you boot up the appliance and get some weird-looking graphics instead of
 ### Help: Powering Down
 Always use the "power button" in the bottom right corner of your Lubuntu desktop to shut down your machine safely - do not simply exit the window or VirtualBox.  Running Lubuntu through VirtualBox can be a bit of a power drain on your laptop, so be prepared with a power cord.  
  
-#### Help: Use Dropbox!
+### Help: Use Dropbox!
 Note that updated versions of this appliance may be posted at a later date. Hence it's probably a Bad Idea (tm) if you keep source code you're working on only in your virtual machine instance. We highly recommend using a service such as Dropbox to maintain your files in. (Start->Internet->Dropbox to install.)  This also helps in case your laptop catches fire or some other mishap occurs.
