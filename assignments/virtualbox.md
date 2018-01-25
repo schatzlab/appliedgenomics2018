@@ -36,18 +36,7 @@ The default username is "osboxes.org" and the default password is "osboxes.org";
 
 Click on the left bottom start button.  Keep in mind that the files in your virtual environment can only be accessed from within that virtual environment, not from your usual laptop software.  So Lubuntu has a web browser, office-like apps, accessories, etc. The terminal can be accessed using the LXTerminal application in the "System Tools" menu.
 
-### Essential Packages
-
-After booting the virtual machine, there are a number of essential packages that will be needed. Install them with the following commands (just accept the defaults when prompted):
-
-```
-$ sudo apt-get update
-$ sudo apt-get install build-essential
-$ sudo apt-get install dkms
-$ sudo agp-get install default-jre
-```
-
-#### Guest Additions
+### 7. Guest Additions
 You will want to install guest additions to get cool features like access to shared folders and shared clipboard, native screen resolutions, etc. Please follow the linked documentation for how to install those extensions.  These tools will make it easier to switch back and forth between your virtual box machine and your native laptop.
 
 From the VirtualBox Devices menu, click "Install Guest Additions CD Image..."
@@ -55,17 +44,28 @@ From the VirtualBox Devices menu, click "Install Guest Additions CD Image..."
 Then run this at the terminal:
 
 ```
-$ sudo /media/osboxes/VBOXADDITIONS_5.1.14_112924/VBoxLinuxAdditions.run
+$ sudo /media/osboxes/VBox_GAs_5.2.6/VBoxLinuxAdditions.run
 $ /sbin/shutdown -r now
 ```
 
-### Fixing the Display
+### 8. Essential Packages
+
+After booting the virtual machine, there are a number of essential packages that will be needed. Install them with the following commands (just accept the defaults when prompted):
+
+```
+$ sudo do-release-upgrade
+$ sudo apt-get update
+$ sudo apt-get install build-essential
+$ sudo apt-get install dkms
+$ sudo agp-get install default-jre
+```
+
+
+### Help: Fixing the Display
 In case you boot up the appliance and get some weird-looking graphics instead of a nice login screen: Hit "Host+F1" once, then "Host+F7" once and everything should be good. In VirtualBox the "Host" key is "Right Ctrl" (on Windows/Linux) or "Left Command" on OS X. (If you're using a Mac, you may also have to push some funky key called "fn" (bottom left corner of your keyboard) to get F1/F7 to behave as they should. And if you have a Mac without function keys, well, you should figure out for yourself where those keys are now...)
  
-
-
-#### Powering Down
+### Help: Powering Down
 Always use the "power button" in the bottom right corner of your Lubuntu desktop to shut down your machine safely - do not simply exit the window or VirtualBox.  Running Lubuntu through VirtualBox can be a bit of a power drain on your laptop, so be prepared with a power cord.  
  
-#### Use Dropbox!
+#### Help: Use Dropbox!
 Note that updated versions of this appliance may be posted at a later date. Hence it's probably a Bad Idea (tm) if you keep source code you're working on only in your virtual machine instance. We highly recommend using a service such as Dropbox to maintain your files in. (Start->Internet->Dropbox to install.)  This also helps in case your laptop catches fire or some other mishap occurs.
