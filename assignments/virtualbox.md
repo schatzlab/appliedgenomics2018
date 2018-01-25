@@ -8,6 +8,9 @@ In order to install and use our environment follow these steps on your laptop:
 2. Download the 64-bit Lubuntu 17.04 Zesty appliance. Make sure to download the 64 bit version! (large file, so expect it to take a while): 
 http://www.osboxes.org/lubuntu/ (666MB file, up to 8 GB required)
 
+On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/).
+
+
 3. Follow the directions here to import the virtual box:
 https://blogs.oracle.com/oswald/entry/importing_a_vdi_in_virtualbox
 
