@@ -24,7 +24,7 @@ Then (1) Name your Virtual Machine and Select the Operating System as 64 bit Ubu
 ![Memory](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/MemorySize.png)
 
 (3) Select the Lubuntu image as your virtual hard disk<br>
-![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/Hard%20Disk.png)
+![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/HardDrive.png)
 
 ### 4. Launch the new virtual machine
 When the install finishes, you will have a virtual machine called "Genomics" showing in the left menu of your VirtualBox device manager.  Double-click on this virtual machine to start it up (or single-click and then hit the "start" icon).  If you get an error message, read the details and follow the instructions to update as necessary.  (For example, you might have to install the Oracle VM Extension Pack from https://www.virtualbox.org/wiki/Downloads to get the USB controller to work.)
