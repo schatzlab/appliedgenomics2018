@@ -60,6 +60,8 @@ $ sudo apt-get install dkms
 $ sudo agp-get install default-jre
 ```
 
+Note, after this you will be updated to Ubunutu 17.10. You can confirm this with `lsb_release -a`
+
 
 ### Help: Fixing the Display
 In case you boot up the appliance and get some weird-looking graphics instead of a nice login screen: Hit "Host+F1" once, then "Host+F7" once and everything should be good. In VirtualBox the "Host" key is "Right Ctrl" (on Windows/Linux) or "Left Command" on OS X. (If you're using a Mac, you may also have to push some funky key called "fn" (bottom left corner of your keyboard) to get F1/F7 to behave as they should. And if you have a Mac without function keys, well, you should figure out for yourself where those keys are now...)
