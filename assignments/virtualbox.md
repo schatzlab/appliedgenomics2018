@@ -4,11 +4,14 @@ The standard development environment for this course is Lubuntu 17.04 Zesty, whi
 In order to install and use our environment follow these steps on your laptop:
 
 1. Install VirtualBox, or upgrade your version if you already have it installed.  VirtualBox is software that allows you to create and work on virtual devices as separate instances within your machine. You can download it here: https://www.virtualbox.org/
+
+Note you may need to set special permissions to allow it to load.
+
  
 2. Download the 64-bit Lubuntu 17.04 Zesty appliance. Make sure to download the 64 bit version! (large file, so expect it to take a while): 
 http://www.osboxes.org/lubuntu/ (666MB file, up to 8 GB required)
 
-On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/).
+On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/). This will create a file named `Lubuntu 17.04 (64bit).vmdk`.
 
 
 3. Follow the directions here to import the virtual box:
