@@ -18,15 +18,15 @@ On mac, you will need to unpack the .7z archive using [The Unarchiver](https://t
 https://blogs.oracle.com/oswald/entry/importing_a_vdi_in_virtualbox
 
    The key steps are (1) Name your Virtual Machine and Select the Operating System as 64 bit Ubuntu
-   ![Name](https://raw.githubusercontent.com/schatzlab/appliedgenomics2017/master/assignments/virtualbox/NameVirtualMachine.png)
+   ![Name](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/NameVirtualMachine.png)
 
    (2) Set the memory size to 4GB (or as much RAM as is available)
-   ![Memory](https://raw.githubusercontent.com/schatzlab/appliedgenomics2017/master/assignments/virtualbox/MemorySize.png)
+   ![Memory](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/MemorySize.png)
 
    (3) Select the Lubuntu image as your virtual hard disk
-   ![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics2017/master/assignments/virtualbox/Hard%20Disk.png)
+   ![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/Hard%20Disk.png)
 
-4. When the install finishes, you will have a virtual machine called "Lubuntu 17.04 Zesty" showing in the left menu of your VirtualBox device manager.  
+4. When the install finishes, you will have a virtual machine called "Genomics" showing in the left menu of your VirtualBox device manager.  
 
 5. Double-click on this virtual machine to start it up (or single-click and then hit the "start" icon).  If you get an error message, read the details and follow the instructions to update as necessary.  (For example, you might have to install the Oracle VM Extension Pack from https://www.virtualbox.org/wiki/Downloads to get the USB controller to work.)
 
