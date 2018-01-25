@@ -12,13 +12,13 @@ http://www.osboxes.org/lubuntu/ (666MB file, up to 8 GB required)
 https://blogs.oracle.com/oswald/entry/importing_a_vdi_in_virtualbox
 
    The key steps are (1) Name your Virtual Machine and Select the Operating System as 64 bit Ubuntu
-   ![Name](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/NameVirtualMachine.png)
+   ![Name](https://raw.githubusercontent.com/schatzlab/appliedgenomics2017/master/assignments/virtualbox/NameVirtualMachine.png)
 
    (2) Set the memory size to 4GB (or as much RAM as is available)
-   ![Memory](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/MemorySize.png)
+   ![Memory](https://raw.githubusercontent.com/schatzlab/appliedgenomics2017/master/assignments/virtualbox/MemorySize.png)
 
    (3) Select the Lubuntu image as your virtual hard disk
-   ![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics/2018/master/assignments/virtualbox/Hard%20Disk.png)
+   ![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics2017/master/assignments/virtualbox/Hard%20Disk.png)
 
 4. When the install finishes, you will have a virtual machine called "Lubuntu 17.04 Zesty" showing in the left menu of your VirtualBox device manager.  
 
