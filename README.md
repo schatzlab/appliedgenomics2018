@@ -20,7 +20,7 @@ We will study the leading computational and quantitative approaches for comparin
 - [Syllabus and Policies](https://github.com/schatzlab/appliedgenomics2018/tree/master/policies)
 - [Piazza Discussion Board](https://piazza.com/jhu/spring2018/en601749/home)
 - [Spring 2017 Course Materials](https://github.com/schatzlab/appliedgenomics2017)
-- [Journal Club]()
+- [Journal Club](https://github.com/cdarby/genomicsjc)
 
 
 ## Related Courses & Readings
