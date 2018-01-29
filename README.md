@@ -12,14 +12,14 @@ We will study the leading computational and quantitative approaches for comparin
 - Online introduction to Unix/Linux. Students are strongly recommended to complete one of the following online tutorials (or both) before class begins. 
   - [Code academy's Intro to Unix](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/environment/exercises/bash-profile)
   - [Command line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/?id=9xnbkx6eaof)
-  - [Unix and Perl for Biologists](http://korflab.ucdavis.edu/Unix_and_Perl/)
+  - [Rosalind Bioinformatics Programming in Python](http://rosalind.info/problems/locations/)
   - [Minimal Make](http://kbroman.org/minimal_make/)
-- Access to a Linux Machine, or Install [VirtualBox](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/virtualbox.md) (Unfortuantely, even Mac will not work correctly for some programs)
+- Access to a Linux Machine, and/or Install [VirtualBox](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/virtualbox.md) (Unfortuantely, even Mac will not work correctly for some programs)
 
 ## Course Resources:
+- [Spring 2017 Course Materials](https://github.com/schatzlab/appliedgenomics2017)
 - [Syllabus and Policies](https://github.com/schatzlab/appliedgenomics2018/tree/master/policies)
 - [Piazza Discussion Board](https://piazza.com/jhu/spring2018/en601749/home)
-- [Spring 2017 Course Materials](https://github.com/schatzlab/appliedgenomics2017)
 - [Journal Club](https://github.com/cdarby/genomicsjc)
 
 
@@ -27,13 +27,13 @@ We will study the leading computational and quantitative approaches for comparin
 - [Applied Comparative Genomics by Aaron Quinlan](https://github.com/quinlan-lab/applied-computational-genomics)
 - [Algorithms for DNA Sequencing by Ben Langmead](http://www.langmead-lab.org/teaching-materials/)
 - [Computational Biology by Rob Patro](https://rob-p.github.io/CSE549F16/lectures/)
-- [Biomedical Data Science by Mark Gerstein](http://cbb752b17.gersteinlab.org/)
-- [Bioinformatics Data Structures and Algorithms by Paul Medvedev](http://medvedevgroup.com/teaching.html)
-- [String Algorithms by Carl Kingsford](http://www.cs.cmu.edu/~ckingsf/class/02-714/)
 - [HarvardX Biomedical Data Science](http://genomicsclass.github.io/book/)
 - [PLOS Computational Biology Translational Bioinformatics](http://collections.plos.org/translational-bioinformatics)
 - [Biostars Handbook](https://www.biostarhandbook.com/)
+
+## Related Textbooks
 - [Molecular Biology of the Gene (Watson et al)](https://www.amazon.com/Molecular-Biology-Gene-James-Watson/dp/0321762436/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=R6A5BW06E5RJB7GVSNPY)
+- [Molecular Biology of the Cell (Alberts)](http://osp.mans.edu.eg/tmahdy/surgeons/ebooks/Books/Alberts%20-%20Molecular%20Biology%20of%20the%20Cell.pdf)
 - [Biological Sequence Analysis (Durbin et al)](https://www.amazon.com/Biological-Sequence-Analysis-Probabilistic-Proteins/dp/0521629713)
 
 
