@@ -57,7 +57,7 @@ Once the software is installed, you should reboot using the menu or the command 
 $ /sbin/shutdown -r now
 ```
 
-### 8. Essential Packages
+### 8. Essential System Packages
 
 After booting the virtual machine, it will ask you to update a number of installed packages. You should accept all of these installations.
 
@@ -71,6 +71,16 @@ $ sudo agp-get install default-jre
 ```
 
 Note, after this you will be updated to the latest builds of everything
+
+
+### 9. Install conda
+
+We will be using the bioconda package manager to simplify installing different software packages. Just follow the defaults to install Miniconda:
+
+```
+$ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+$ sh Miniconda3-latest-Linux-x86_64.sh
+```
 
 
 ### Help: Fixing the Display
