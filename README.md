@@ -1,6 +1,6 @@
 # JHU EN.601.749: Computational Genomics: Applied Comparative Genomics
 Prof: [Michael Schatz](http://schatz-lab.org) (mschatz @ cs.jhu.edu) <br>
-TA: [Charlotte Darby](https://github.com/cdarby) <br> [ cdarby3 @ jhu.edu) <br>
+TA: [Charlotte Darby](https://github.com/cdarby) (cdarby3 @ jhu.edu) <br>
 Class Hours: Tuesday + Thursday @ 1:30p - 2:45p in Shaffer 304 <br>
 Schatz Office Hours: Tuesday + Thursday @ 3-4p in Malone 323 and by appointment <br>
 Darby Office Hours: Wednesday @ 4pm and by appointment <br>
