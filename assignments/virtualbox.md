@@ -1,5 +1,5 @@
 ## Development Environment
-The standard development environment for this course is Lubuntu 17.04 Zesty, which is a fast and lightweight operating system based on Linux (a unix variant) and Ubuntu.  We have created a packaged version of this that you will need to import as an "appliance" through VirtualBox (instructions below). 
+The standard development environment for this course is Ubuntu 17.10 Artful.  We have created a packaged version of this that you will need to import as an "appliance" through VirtualBox (instructions below). 
  
 In order to install and use our environment follow these steps on your laptop:
 
@@ -42,7 +42,7 @@ Click on the left bottom start button.  Keep in mind that the files in your virt
 ### 7. Guest Additions
 You will want to install guest additions to get cool features like access to shared folders and shared clipboard, native screen resolutions, etc. Please follow the linked documentation for how to install those extensions.  These tools will make it easier to switch back and forth between your virtual box machine and your native laptop.
 
-From the VirtualBox Devices menu, click "Install Guest Additions CD Image..."
+From the VirtualBox Devices menu, click "Insert Guest Additions CD Image..."
 
 Then it should ask to install the software.
 
