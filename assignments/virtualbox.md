@@ -19,7 +19,7 @@ On mac, you will need to unpack the .7z archive using [The Unarchiver](https://t
 From within VirutalBox, click "New" to create a new virtual machine.
 
 Then (1) Name your Virtual Machine and Select the Operating System as 64 bit Ubuntu <br>
-![Name](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/InitialDesktop.png/assignments/virtualbox/NameVirtualMachine.png)
+![Name](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/NameVirtualMachine.png)
 
 (2) Set the memory size to 4GB (or as much RAM as is available)<br>
 ![Memory](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/MemorySize.png)
