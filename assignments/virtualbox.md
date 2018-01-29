@@ -105,7 +105,7 @@ Always use the "power button" in the bottom right corner of your Lubuntu desktop
 Note that updated versions of this appliance may be posted at a later date. Hence it's probably a Bad Idea (tm) if you keep source code you're working on only in your virtual machine instance. We highly recommend using a service such as Dropbox to maintain your files in. (Start->Internet->Dropbox to install.)  This also helps in case your laptop catches fire or some other mishap occurs.
 
 
-## Help: Flicking display on mac
+### Help: Flicking display on mac
 Edit /etc/gdm3/custom.conf and uncomment this line:
 #WaylandEnable=false
 
