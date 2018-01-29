@@ -92,7 +92,7 @@ $ conda config --add channels bioconda
 
 Now install some bioinformatics packages
 ```
-$ conda install bwa
+$ conda install bwa bowtie samtools bedtools spades jellyfish fastqc mummer
 ```
 
 ### Help: Fixing the Display
