@@ -61,7 +61,7 @@ $ /sbin/shutdown -r now
 
 After booting the virtual machine, it will ask you to update a number of installed packages. You should accept all of these installations.
 
-If necessary, these can be installed at the command line like this (just accept the defaults when prompted):
+Once that is done, you should install the essential build tools via the command line (just accept the defaults when prompted):
 
 ```
 $ sudo apt-get update
