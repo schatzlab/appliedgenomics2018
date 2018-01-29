@@ -19,13 +19,13 @@ On mac, you will need to unpack the .7z archive using [The Unarchiver](https://t
 From within VirutalBox, click "New" to create a new virtual machine.
 
 Then (1) Name your Virtual Machine and Select the Operating System as 64 bit Ubuntu <br>
-![Name](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/NameVirtualMachine.png)
+![Name](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/InitialDesktop.png/assignments/virtualbox/NameVirtualMachine.png)
 
 (2) Set the memory size to 4GB (or as much RAM as is available)<br>
-![Memory](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/MemorySize.png)
+![Memory](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/MemorySize.png)
 
 (3) Select the Ubuntu image as your virtual hard disk<br>
-![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/HardDrive.png)
+![HardDrive](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/HardDisk.png)
 
 ### 4. Launch the new virtual machine
 When the install finishes, you will have a virtual machine called "Genomics" showing in the left menu of your VirtualBox device manager.  Double-click on this virtual machine to start it up (or single-click and then hit the "start" icon).  If you get an error message, read the details and follow the instructions to update as necessary.  (For example, you might have to install the Oracle VM Extension Pack from https://www.virtualbox.org/wiki/Downloads to get the USB controller to work.)
@@ -33,7 +33,7 @@ When the install finishes, you will have a virtual machine called "Genomics" sho
 ### 5. Log into your new Lubuntu virtual machine
 The default username is "osboxes.org" and the default password is "osboxes.org"; feel free to create a new username or change the password
 
-![InitialDesktop](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/InitialDesktop.png)
+![InitialDesktop](http://schatz-lab.org/appliedgenomics2018/assignments/virtualbox/InitialDesktop.png)
 
 ### 6. Explore your new machine-in-a-machine
 
