@@ -7,11 +7,12 @@ In order to install and use our environment follow these steps on your laptop:
 VirtualBox is software that allows you to create and work on virtual devices as separate instances within your machine. You can download it here: https://www.virtualbox.org/. Note you may need to set special permissions to allow it to load.
 
  
-### 2. Download the 64-bit Lubuntu 17.04 Zesty appliance. 
-Make sure to download the 64 bit version! (large file, so expect it to take a while): 
-http://www.osboxes.org/lubuntu/ (666MB file, up to 8 GB required)
+### 2. Download the 64-bit Lubuntu Ubuntu 17.10 Artful Appliance
+Make sure to download the 64 bit version! (large file, so expect it to take a while): https://www.osboxes.org/ubuntu/ (1GB)
 
-On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/). This will create a file named `Lubuntu 17.04 (64bit).vmdk`.
+After downloading, decompress the archive "Ubuntu_17.10-VB-64bit.7z" to create a file called "Ubuntu 17.10 Artful (64bit).vdi"
+
+On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/).
 
 
 ### 3. Create the virtual machine
@@ -23,7 +24,7 @@ Then (1) Name your Virtual Machine and Select the Operating System as 64 bit Ubu
 (2) Set the memory size to 4GB (or as much RAM as is available)<br>
 ![Memory](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/MemorySize.png)
 
-(3) Select the Lubuntu image as your virtual hard disk<br>
+(3) Select the Ubuntu image as your virtual hard disk<br>
 ![HardDrive](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/HardDrive.png)
 
 ### 4. Launch the new virtual machine
@@ -32,35 +33,44 @@ When the install finishes, you will have a virtual machine called "Genomics" sho
 ### 5. Log into your new Lubuntu virtual machine
 The default username is "osboxes.org" and the default password is "osboxes.org"; feel free to create a new username or change the password
 
+![InitialDesktop](https://raw.githubusercontent.com/schatzlab/appliedgenomics2018/master/assignments/virtualbox/InitialDesktop.png)
+
 ### 6. Explore your new machine-in-a-machine
 
-Click on the left bottom start button.  Keep in mind that the files in your virtual environment can only be accessed from within that virtual environment, not from your usual laptop software.  So Lubuntu has a web browser, office-like apps, accessories, etc. The terminal can be accessed using the LXTerminal application in the "System Tools" menu.
+Click on the left bottom start button.  Keep in mind that the files in your virtual environment can only be accessed from within that virtual environment, not from your usual laptop software.  So Ubuntu has a web browser, office-like apps, accessories, etc. The terminal can be accessed using the Terminal application on the second page of applications.
 
 ### 7. Guest Additions
 You will want to install guest additions to get cool features like access to shared folders and shared clipboard, native screen resolutions, etc. Please follow the linked documentation for how to install those extensions.  These tools will make it easier to switch back and forth between your virtual box machine and your native laptop.
 
 From the VirtualBox Devices menu, click "Install Guest Additions CD Image..."
 
-Then run this at the terminal:
+Then it should ask to install the software.
+
+If there are any problems, you can also launch it by hand at the terminal:
 
 ```
 $ sudo /media/osboxes/VBox_GAs_5.2.6/VBoxLinuxAdditions.run
+```
+
+Once the software is installed, you should reboot using the menu or the command line:
+```
 $ /sbin/shutdown -r now
 ```
 
 ### 8. Essential Packages
 
-After booting the virtual machine, there are a number of essential packages that will be needed. Install them with the following commands (just accept the defaults when prompted):
+After booting the virtual machine, it will ask you to update a number of installed packages. You should accept all of these installations.
+
+If necessary, these can be installed at the command line like this (just accept the defaults when prompted):
 
 ```
-$ sudo do-release-upgrade
 $ sudo apt-get update
 $ sudo apt-get install build-essential
 $ sudo apt-get install dkms
 $ sudo agp-get install default-jre
 ```
 
-Note, after this you will be updated to Ubunutu 17.10. You can confirm this with `lsb_release -a`
+Note, after this you will be updated to the latest builds of everything
 
 
 ### Help: Fixing the Display
