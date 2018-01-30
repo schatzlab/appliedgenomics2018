@@ -20,7 +20,7 @@ Download the genome sequences:
 - [Yeast Genome (sacCer3)](http://hgdownload.cse.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz)
 - [Fruit Fly Genome (dm6)](http://hgdownload.cse.ucsc.edu/goldenPath/dm6/bigZips/dm6.fa.gz)
 - [Arabidopsis Genome (TAIR10)](http://bit.ly/2GsXBsb) Note: Only download TAIR10_chr1.fas - TAIR10_chr5.fas
-- [Human Genome (hg38)](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/) Note: Only download chr1.fa.gz - chr22.fa.gz, chrX.fa.gz, chrY.fa.gz
+- [Human Genome (hg38)](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz) Note: Only download chr1.fa.gz - chr22.fa.gz, chrX.fa.gz, chrY.fa.gz
 
 
 
