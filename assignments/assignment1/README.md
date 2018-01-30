@@ -5,14 +5,14 @@ Due Date: Thursday, Feb. 8, 2017 @ 11:59pm <br>
 ### Assignment Overview
 
 In this assignment you will profile the overall structure of the genomes of several important species: 
-- Arabidopsis ([Arabidopsis thaliana](https://en.wikipedia.org/wiki/Arabidopsis_thaliana))
-- Corn ([Zea mays](https://en.wikipedia.org/wiki/Maize))
-- E. coli ([Escherichia coli](https://en.wikipedia.org/wiki/Escherichia_coli)
-- Fruit fly ([Drosophila melanogaster](https://en.wikipedia.org/wiki/Drosophila_melanogaster))
-- Human ([Homo sapiens](https://en.wikipedia.org/wiki/Homo_sapiens))
-- Rice ([Oryza sativa](https://en.wikipedia.org/wiki/Rice))
-- Worm ([Caenorhabditis elegans](https://en.wikipedia.org/wiki/Caenorhabditis_elegans))
-- Yeast ([Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae))
+- Arabidopsis ([Arabidopsis thaliana](https://en.wikipedia.org/wiki/Arabidopsis_thaliana)) - An important plant model species
+- Corn ([Zea mays](https://en.wikipedia.org/wiki/Maize)) - the most widely grown crop in the world
+- E. coli ([Escherichia coli](https://en.wikipedia.org/wiki/Escherichia_coli) - one of the most commonly studied bacteria
+- Fruit fly ([Drosophila melanogaster](https://en.wikipedia.org/wiki/Drosophila_melanogaster)) - one of the original species used for genetics
+- Human ([Homo sapiens](https://en.wikipedia.org/wiki/Homo_sapiens)) - us :)
+- Rice ([Oryza sativa](https://en.wikipedia.org/wiki/Rice)) - one of the most important crops in the world
+- Worm ([Caenorhabditis elegans](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)) - an important animal model species
+- Yeast ([Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)) - an important eukaryotic model species, good for bread and beer 
 
 
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/jhu/spring2017/600649/home)
@@ -29,19 +29,25 @@ Download the chomosome size files for the following genomes (Note these have bee
 - [E. coli K12](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ecoli.chrom.sizes)
 - [Fruit Fly (dm6)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/dm6.chrom.sizes)
 - [Human (hg38)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/hg38.chrom.sizes) 
-- [Rice (IRGSP-1.0)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/rice.chrom.sizes) )
-- [Worm (ce10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ce10.chrom.sizes)) 
+- [Rice (IRGSP-1.0)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/rice.chrom.sizes)
+- [Worm (ce10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ce10.chrom.sizes)
 - [Yeast (sacCer3)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.chrom.sizes)
 
 Using these files, make a spreadsheet/table with the following information per species:
 
-1. Total genome size
-2. Number of chromosomes
-3. Largest chromosome size and name
-4. Smallest chromosome size and name
+- Question 1.1. Total genome size
+- Question 1.2. Number of chromosomes
+- Question 1.3. Largest chromosome size and name
+- Question 1.4. Smallest chromosome size and name
+- Question 1.5. Mean chromosome length
 
 
-### Question 2: 
+### Question 2: Sequence content
+
+Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.fa.gz
+
+- Question 2.1. How many As, Cs, Gs, Ts are found in the entire genome
+- Question 2.2. Make a scatterplot of the %GC of 1000bp windows across the genome: x-axis = genome location, y-axis = (#G + #C / 1000). For this analysis the chromsomes can be concatenated together to form a long string of the chromosomes in numerical order: chr1, chr2, ... chrN
 
 
 
