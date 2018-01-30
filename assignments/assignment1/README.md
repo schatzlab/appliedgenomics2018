@@ -37,7 +37,7 @@ Using these files, make a spreadsheet/table with the following information per s
 Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.fa.gz
 
 - Question 2.1. How many As, Cs, Gs, Ts are found in the entire genome
-- Question 2.2. Make a scatterplot of the %GC of 1000bp windows across the genome: x-axis = genome location, y-axis = (#G + #C / 1000). For this analysis the chromsomes can be concatenated together to form a long string of the chromosomes in numerical order: chr1, chr2, ... chrN
+- Question 2.2. Make a scatterplot of the %GC of 1000bp windows across the genome: x-axis = genome location, y-axis = (#G + #C / 1000). For this analysis the chromsomes can be concatenated together to form a long string of the chromosomes in numerical order: chr1, chr2, ... chrN. Make sure to draw a bar to indicate the ends of chromosomes
 
 
 
