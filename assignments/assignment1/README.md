@@ -5,14 +5,14 @@ Due Date: Thursday, Feb. 8, 2017 @ 11:59pm <br>
 ### Assignment Overview
 
 In this assignment you will profile the overall structure of the genomes of several important species: 
+- Arabidopsis ([Arabidopsis thaliana](https://en.wikipedia.org/wiki/Arabidopsis_thaliana))
+- Corn ([Zea mays](https://en.wikipedia.org/wiki/Maize))
 - E. coli ([Escherichia coli](https://en.wikipedia.org/wiki/Escherichia_coli)
-- arabidopsis ([Arabidopsis thaliana](https://en.wikipedia.org/wiki/Arabidopsis_thaliana))
-- corn ([Zea mays](https://en.wikipedia.org/wiki/Maize))
-- fruit fly ([Drosophila melanogaster](https://en.wikipedia.org/wiki/Drosophila_melanogaster))
-- human ([Homo sapiens](https://en.wikipedia.org/wiki/Homo_sapiens))
-- rice ([Oryza sativa](https://en.wikipedia.org/wiki/Rice))
-- worm ([Caenorhabditis elegans](https://en.wikipedia.org/wiki/Caenorhabditis_elegans))
-- yeast ([Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae))
+- Fruit fly ([Drosophila melanogaster](https://en.wikipedia.org/wiki/Drosophila_melanogaster))
+- Human ([Homo sapiens](https://en.wikipedia.org/wiki/Homo_sapiens))
+- Rice ([Oryza sativa](https://en.wikipedia.org/wiki/Rice))
+- Worm ([Caenorhabditis elegans](https://en.wikipedia.org/wiki/Caenorhabditis_elegans))
+- Yeast ([Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae))
 
 
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/jhu/spring2017/600649/home)
@@ -24,12 +24,24 @@ Some of the tools you will need to use this semester only run in a linux environ
 
 Download the chomosome size files for the following genomes (Note these have been preprocessed to only include main chromosomes):
 
-- [E coli K12](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ecoli.chrom.sizes)
-- [Yeast (sacCer3)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.chrom.sizes)
-- [Fruit Fly (dm6)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/dm6.chrom.sizes)
 - [Arabidopsis (TAIR10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/TAIR10.chrom.sizes)
-- [Human (hg38)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/TAIR10.chrom.sizes) 
+- [Corn (B73v4)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/zm4.chrom.sizes))
+- [E. coli K12](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ecoli.chrom.sizes)
+- [Fruit Fly (dm6)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/dm6.chrom.sizes)
+- [Human (hg38)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/hg38.chrom.sizes) 
+- [Rice (IRGSP-1.0)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/rice.chrom.sizes) )
+- [Worm (ce10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ce10.chrom.sizes)) 
+- [Yeast (sacCer3)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.chrom.sizes)
 
+Using these files, make a spreadsheet/table with the following information per species:
+
+1. Total genome size
+2. Number of chromosomes
+3. Largest chromosome size and name
+4. Smallest chromosome size and name
+
+
+### Question 2: 
 
 
 
