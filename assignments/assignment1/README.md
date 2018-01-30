@@ -4,17 +4,7 @@ Due Date: Thursday, Feb. 8, 2017 @ 11:59pm <br>
 
 ### Assignment Overview
 
-In this assignment you will profile the overall structure of the genomes of several important species: 
-- Arabidopsis ([Arabidopsis thaliana](https://en.wikipedia.org/wiki/Arabidopsis_thaliana)) - An important plant model species
-- Corn ([Zea mays](https://en.wikipedia.org/wiki/Maize)) - the most widely grown crop in the world
-- E. coli ([Escherichia coli](https://en.wikipedia.org/wiki/Escherichia_coli) - one of the most commonly studied bacteria
-- Fruit fly ([Drosophila melanogaster](https://en.wikipedia.org/wiki/Drosophila_melanogaster)) - one of the original species used for genetics
-- Human ([Homo sapiens](https://en.wikipedia.org/wiki/Homo_sapiens)) - us :)
-- Rice ([Oryza sativa](https://en.wikipedia.org/wiki/Rice)) - one of the most important crops in the world
-- Worm ([Caenorhabditis elegans](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)) - an important animal model species
-- Yeast ([Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)) - an important eukaryotic model species, good for bread and beer 
-
-
+In this assignment you will profile the overall structure of the genomes of several important species and then study the yeast genome in more detail.
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/jhu/spring2017/600649/home)
 
 Some of the tools you will need to use this semester only run in a linux environment. If you do not have access to a linux machine, download and install a virtual machine following the directions here: https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/virtualbox.md
@@ -24,14 +14,14 @@ Some of the tools you will need to use this semester only run in a linux environ
 
 Download the chomosome size files for the following genomes (Note these have been preprocessed to only include main chromosomes):
 
-- [Arabidopsis (TAIR10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/TAIR10.chrom.sizes)
-- [Corn (B73v4)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/zm4.chrom.sizes))
-- [E. coli K12](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ecoli.chrom.sizes)
-- [Fruit Fly (dm6)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/dm6.chrom.sizes)
-- [Human (hg38)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/hg38.chrom.sizes) 
-- [Rice (IRGSP-1.0)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/rice.chrom.sizes)
-- [Worm (ce10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ce10.chrom.sizes)
-- [Yeast (sacCer3)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.chrom.sizes)
+- [Arabidopsis thaliana (TAIR10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/TAIR10.chrom.sizes) - An important plant model species [info](https://en.wikipedia.org/wiki/Arabidopsis_thaliana)
+- [Corn (Zea mays B73v4)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/zm4.chrom.sizes)) - The most widely grown crop in the world [info](https://en.wikipedia.org/wiki/Maize)
+- [E. coli K12](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ecoli.chrom.sizes) - One of the most commonly studied bacteria [info](https://en.wikipedia.org/wiki/Escherichia_coli)
+- [Fruit Fly (Drosophila melanogaster, dm6)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/dm6.chrom.sizes) - One of the most important model species for genetics [info](https://en.wikipedia.org/wiki/Drosophila_melanogaster)
+- [Human (hg38)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/hg38.chrom.sizes) - us :) [info](https://en.wikipedia.org/wiki/Homo_sapiens)
+- [Rice (Oryza sativa, IRGSP-1.0)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/rice.chrom.sizes) - One of the most important crops in the world [info](https://en.wikipedia.org/wiki/Rice)
+- [Worm (Caenorhabditis elegans, ce10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ce10.chrom.sizes) - One of the most important animal model species [info](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
+- [Yeast (sacCer3)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.chrom.sizes) - an important eukaryotic model species, also good for bread and beer [info](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)
 
 Using these files, make a spreadsheet/table with the following information per species:
 
