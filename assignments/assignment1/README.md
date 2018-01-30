@@ -16,7 +16,7 @@ Download the chomosome size files for the following genomes (Note these have bee
 
 - [Arabidopsis thaliana (TAIR10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/TAIR10.chrom.sizes) - An important plant model species [[info]](https://en.wikipedia.org/wiki/Arabidopsis_thaliana)
 - [Corn (Zea mays B73v4)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/zm4.chrom.sizes)) - The most widely grown crop in the world [[info]](https://en.wikipedia.org/wiki/Maize)
-- [E. coli K12](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ecoli.chrom.sizes) - One of the most commonly studied bacteria [[info]](https://en.wikipedia.org/wiki/Escherichia_coli)
+- [E. coli (Escherichia coli K12)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ecoli.chrom.sizes) - One of the most commonly studied bacteria [[info]](https://en.wikipedia.org/wiki/Escherichia_coli)
 - [Fruit Fly (Drosophila melanogaster, dm6)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/dm6.chrom.sizes) - One of the most important model species for genetics [[info]](https://en.wikipedia.org/wiki/Drosophila_melanogaster)
 - [Human (hg38)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/hg38.chrom.sizes) - us :) [[info]](https://en.wikipedia.org/wiki/Homo_sapiens)
 - [Rice (Oryza sativa, IRGSP-1.0)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/rice.chrom.sizes) - One of the most important crops in the world [[info]](https://en.wikipedia.org/wiki/Rice)
