@@ -37,7 +37,7 @@ Using these files, make a spreadsheet/table with the following information per s
 Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.fa.gz
 
 - Question 2.1. How many As, Cs, Gs, Ts are found in the entire genome
-- Question 2.2. Make a scatterplot of the %GC of 1000bp windows across the genome: x-axis = genome location, y-axis = (#G + #C / 1000). For this analysis the chromsomes can be concatenated together to form a long string of the chromosomes in numerical order: chr1, chr2, ... chrN. Make sure to draw a bar to indicate the ends of chromosomes
+- Question 2.2. Make a scatterplot of the %GC of 1000bp windows across the genome: x-axis = genome location, y-axis = (#G + #C) / 1000. For this analysis the chromsomes can be concatenated together to form a long string of the chromosomes in numerical order: chr1, chr2, ... chrN. Make sure to draw a bar to indicate the ends of chromosomes
 
 
 
@@ -45,8 +45,7 @@ Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/a
 
 The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
 all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands you used for 
-solving the question. Submit your solutions by emailing the PDF as an attachment to "jhuappliedgenomics at gmail dot com" 
-by 11:59pm on Feb 8. Name your PDF as "Lastname.Firstname.Asn1.pdf" (replace LastName.Firstname with your own name :-). 
+solving the question. Submit your solutions by uploading the PDF to Blackboard. 
 
 If you submit after this time, you will start to use up your late days. Remember, you are only allowed 4 late days for the entire semester!
 
