@@ -39,7 +39,7 @@ Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/a
 - Question 2.1. How many As, Cs, Gs, Ts are found in the entire genome
 - Question 2.2. Make a scatterplot of the %GC of 100bp windows across the genome: x-axis = genome location, y-axis = (#G + #C) / 100. For this analysis the chromsomes can be concatenated together to form a long string of the chromosomes in numerical order: chr1, chr2, ... chrN. Make sure to draw a bar to indicate the ends of chromosomes
 - Question 2.3. Make a histogram of the number of genomic bins of a given %GC
-- Question 2.4. Recall that Illumina sequencing performs poorly when the %GC is <= 25% or >= 75%. Based on the analysis from Q2.2, what fraction of the genome do you expect to sequence poorly?
+- Question 2.4. Recall that Illumina sequencing performs poorly when the %GC is <= 30% or >= 65%. Based on the analysis from Q2.2, what fraction of the genome do you expect to sequence poorly?
 
 
 
