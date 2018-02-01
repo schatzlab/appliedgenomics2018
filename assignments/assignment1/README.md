@@ -47,7 +47,7 @@ Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/a
 
 The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
 all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands you used for 
-solving the question. Submit your solutions by uploading the PDF to [Blackboard](https://blackboard.jhu.edu/webapps/login/). 
+solving the question. Submit your solutions by uploading the PDF to [Blackboard](https://blackboard.jhu.edu/webapps/blackboard/execute/modulepage/view?course_id=_154055_1&cmp_tab_id=_385853_1&editMode=true&mode=cpview). 
 
 If you submit after this time, you will start to use up your late days. Remember, you are only allowed 4 late days for the entire semester!
 
