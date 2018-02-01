@@ -3,7 +3,7 @@ Prof: [Michael Schatz](http://schatz-lab.org) (mschatz @ cs.jhu.edu) <br>
 TA: [Charlotte Darby](https://github.com/cdarby) (cdarby @ jhu.edu) <br>
 Class Hours: Tuesday + Thursday @ 1:30p - 2:45p in Shaffer 304 <br>
 Schatz Office Hours: Tuesday + Thursday @ 3-4p in Malone 323 and by appointment <br>
-Darby Office Hours: Wednesday @ 4pm and by appointment <br>
+Darby Office Hours: Wednesday @ 4pm in Malone 216 and by appointment <br>
 
 **The primary goal of the course is for students to be grounded in theory and leave the course empowered to conduct independent genomic analyses.** 
 We will study the leading computational and quantitative approaches for comparing and analyzing genomes starting from raw sequencing data. The course will focus on human genomics and human medical applications, but the techniques will be broadly applicable across the tree of life. The topics will include genome assembly & comparative genomics, variant identification & analysis, gene expression & regulation, personal genome analysis, and cancer genomics. The grading will be based on assignments, a midterm exam, class presentations, and a significant class project. There are no formal course prerequisites, although the course will require familiarity with UNIX scripting and/or programming to complete the assignments and course project. 
