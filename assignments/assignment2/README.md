@@ -25,7 +25,7 @@ Make sure to look at all of the reads for the coverage analysis and kmer analysi
 
 - Question 1a. How long is the reference genome? [Hint: Try `samtools faidx`]
 - Question 1b. How many reads are provided and how long are they? Make sure to measure each file separately [Hint: Try `FastQC`]
-- Question 1c. How much coverage do you expect to have? [Hint: A little arthimetic]
+- Question 1c. How much coverage do you expect to have? [Hint: A little arthmetic]
 - Question 1d. Plot the average quality value across the length of the reads [Hint: Screenshot from `FastQC`]
 
 #### Question 2. Kmer Analysis [10 pts]
