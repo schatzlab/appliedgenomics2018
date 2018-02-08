@@ -69,7 +69,7 @@ Once that is done, you should install the essential build tools via the command 
 $ sudo apt-get update
 ```
 
-Note, after this you will be updated to the latest builds of everything
+Note, after this you will be updated to the latest builds of everything. You can also run this using the "Software Update" tool in the Applications Menu.
 
 
 ### 9. Install conda
@@ -86,7 +86,7 @@ When prompted, just use the default paths and settings (agree to everything)
 
 Now configure conda:
 ```
-$ (conda config --add channels r)
+$ conda config --add channels r
 $ conda config --add channels defaults
 $ conda config --add channels conda-forge
 $ conda config --add channels bioconda
