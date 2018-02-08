@@ -107,20 +107,10 @@ $ bin/jellyfish histo mer_counts.jf > reads.histo
 
 GenomeScope is a web-based tool so there is nothing to install. Hooray! Just make sure to use the `-C` when running jellyfish count so that the reads are correctly processed.
 
-####  [ALLPATHS-LG](http://software.broadinstitute.org/allpaths-lg/blog/?page_id=12) - Short Read Assembler. Note: Only works under linux
-
-Allpaths requires an older version of the compiler (GCC 4.X) rather than what comes installed in Lubuntu. The following commands will install the required version of the compiler and build the package. Note the syntax for the `configure` command where you specify which version of the compiler to use before the `./configure` command. The `make` step will take a long time on the virtual machine (~1 hour) but if all goes well wont require any interaction during that time. Also note that ALLPATHS requires that you add its bin directory to your $PATH. You will need to use the `export` command listed here every time that you use ALLPATHS (or add it your `~/.bashrc` file).
+####  [Spades](http://cab.spbu.ru/software/spades/2) - Short Read Assembler. Note: Only works under linux
 
 ```
-$ sudo apt-get install gcc-4.8 g++-4.8
-$ tar xzvf LATEST_VERSION.tgz
-$ cd allpathslg-52488
-$ CXX=g++-4.8 ./configure --prefix=`pwd`
-$ make
-$ make install
-$ export PATH=`pwd`/bin/:$PATH
-$ PrepareAllPathsInputs.pl DATA_DIR=`pwd` PLOIDY=1 >& prepare.log
-$ RunAllPathsLG PRE=. REFERENCE_NAME=. DATA_SUBDIR=. RUN=default THREADS=2 >& run.log
+$ spades.py --pe1-1 frag180.1.fq --pe1-2 frag180.2.fq --mp1-1 jump2k.1.fq --mp1-2 jump2k.2.fq -o asm -t 4 -k 31
 ```
 
 #### [MUMmer](http://mummer.sourceforge.net/) - Whole Genome Alignment
