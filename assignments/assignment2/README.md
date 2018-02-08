@@ -82,7 +82,7 @@ I *highly* recommend that you use bioconda to install the packages rather than i
 all of the needed tools can be installed using:
 
 ```
-$ conda install fastqc jellyfish 
+$ conda install fastqc jellyfish spades mummer samtools
 ```
 
 #### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - Raw read quality assessment
