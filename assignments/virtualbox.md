@@ -14,6 +14,8 @@ After downloading, decompress the archive "Ubuntu_17.10-VB-64bit.7z" to create a
 
 On mac, you will need to unpack the .7z archive using [The Unarchiver](https://theunarchiver.com/).
 
+After extracting, move the Ubuntu image file to a new directory where you will want to keep it this semester.
+
 
 ### 3. Create the virtual machine
 From within VirutalBox, click "New" to create a new virtual machine.
