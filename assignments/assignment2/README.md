@@ -52,7 +52,6 @@ Assemble the reads using `Spades`. Spades will *not* run on Mac or Windows, you 
 - Question 4a. What is the average identify of your assembly compared to the reference? [Hint: try `dnadiff`]
 - Question 4b. What is the length of the longest alignment [Hint: try `nucmer` and `show-coords`]
 - Question 4c. How many insertions and deletions are in the assembly? [Hint: try `dnadiff`]
-- Question 4d. Make a dotplot of your assembled contigs aligned to the reference genome? [Hint: trying `nucmer` and `mummerplot`]
 
 #### Question 5. Decoding the insertion [10 pts]
 - Question 5a. What is the position of the insertion on the reference? [Hint: try `show-coords`]
@@ -115,13 +114,9 @@ $ spades.py --pe1-1 frag180.1.fq --pe1-2 frag180.2.fq --mp1-1 jump2k.1.fq --mp1-
 
 #### [MUMmer](http://mummer.sourceforge.net/) - Whole Genome Alignment
 
-MUMmer requires a package called gnuplot to render the dotplot. You can install gnuplot using the following few commands. `mummerplot` requires an older version of perl to run but rather than downgrading perl, you can use the version of code that is available here: https://raw.githubusercontent.com/schatzlab/appliedgenomics/master/assignments/assignment1/mummerplot
-
-You will need to edit line 19 of mummerplot (use lib "...") if you have MUMmer in a different directory.
-
 ```
+$ dnadiff /path/to/ref.fa /path/to/qry.fa
 $ nucmer /path/to/ref.fa /path/to/qry.fa
-$ mummerplot out.delta
 $ show-coords out.delta
 ```
 
