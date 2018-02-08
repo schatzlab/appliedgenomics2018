@@ -75,15 +75,19 @@ If you submit after this time, you will start to use up your late days. Remember
 
 ### Resources
 
-#### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - Raw read quality assessment
+#### Bioconda
 
-After downloading make sure to make the script executable so you can run it on the command line:
+I *highly* recommend that you use bioconda to install the packages rather than installing from source. Once bioconda is configured,
+all of the needed tools can be installed using:
 
 ```
-$ unzip fastqc_v0.11.5.zip
-$ cd FastQC
-$ chmod +x fastqc
-$ ./fastqc /path/to/reads.fq
+$ conda install fastqc jellyfish 
+
+
+#### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - Raw read quality assessment
+
+```
+$ fastqc /path/to/reads.fq
 ```
 
 If you have problems, make sure java is installed (`sudo apt-get install default-jre`)
@@ -94,13 +98,8 @@ If you have problems, make sure java is installed (`sudo apt-get install default
 Note Jellyfish requires a 64-bit operating system. Download the package and compile it like this:
 
 ```
-$ tar xzvf jellyfish-2.2.6.tgz
-$ cd jellyfish-2.2.6
-./configure --prefix=`pwd`
-$ make
-$ make install
-$ bin/jellyfish count -m 21 -C -s 1000000 /path/to/reads*.fq
-$ bin/jellyfish histo mer_counts.jf > reads.histo
+$ jellyfish count -m 21 -C -s 1000000 /path/to/reads*.fq
+$ jellyfish histo mer_counts.jf > reads.histo
 ```
 
 #### [GenomeScope](http://www.genomescope.org/) - Analyze Kmer Profile to determine genome size and other properties
@@ -120,24 +119,13 @@ MUMmer requires a package called gnuplot to render the dotplot. You can install 
 You will need to edit line 19 of mummerplot (use lib "...") if you have MUMmer in a different directory.
 
 ```
-$ sudo apt-get install gnuplot-x11
-$ tar xzvf MUMmer3.23.tar.gz
-$ cd MUMmer3.23
-$ make
-$ make install
-$ wget https://raw.githubusercontent.com/schatzlab/appliedgenomics/master/assignments/assignment1/mummerplot
-$ ./nucmer /path/to/ref.fa /path/to/qry.fa
-$ ./mummerplot out.delta
+$ nucmer /path/to/ref.fa /path/to/qry.fa
+$ mummerplot out.delta
+$ show-coords out.delta
 ```
 
-#### [SAMTOOLS](http://www.htslib.org/) - Extract part of a genome sequence using 'samtools faidx'
+#### [SAMTOOLS](http://www.htslib.org/) - Extract part of a genome sequence using 'samtools faidx' (this will extract from contig_id bases 1234 through 5678)
 
 ```
-$ sudo apt-get install libncurses5-dev zlib1g-dev
-$ tar xjvf samtools-1.3.1.tar.bz2
-$ cd samtools-1.3.1
-$ ./configure --prefix=`pwd`
-$ make
-$ make install
-$ ./samtools faidx /path/to/genome.fa
+$ ./samtools faidx /path/to/genome.fa contig_id:1234-5678
 ```
