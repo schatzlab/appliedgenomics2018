@@ -62,8 +62,6 @@ Assemble the reads using `Spades`. Spades will *not* run on Mac or Windows, you 
 
 ### Packaging
 
-The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands you used for solving the question. Submit your solutions by emailing the PDF as an attachment to "jhuappliedgenomics at gmail dot com" by 11:59pm on Feb 23. Name your PDF as "Lastname.Firstname.Asn1.pdf" (replace LastName.Firstname with your own name :-). If you submit after this time, you will start to use up your late days. Remember, you are only allowed 3 late days for the entire semester!
-
 The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
 all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands you used for 
 solving the question. Submit your solutions by uploading the PDF to [Blackboard](https://blackboard.jhu.edu/). 
