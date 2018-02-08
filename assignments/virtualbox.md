@@ -67,9 +67,6 @@ Once that is done, you should install the essential build tools via the command 
 
 ```
 $ sudo apt-get update
-$ sudo apt-get install build-essential
-$ sudo apt-get install dkms
-$ sudo agp-get install default-jre
 ```
 
 Note, after this you will be updated to the latest builds of everything
@@ -83,6 +80,9 @@ We will be using the bioconda package manager to simplify installing different s
 $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 $ sh Miniconda3-latest-Linux-x86_64.sh
 ```
+
+When prompted, just use the default paths and settings (agree to everything)
+
 
 Now configure conda:
 ```
