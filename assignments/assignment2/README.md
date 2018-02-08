@@ -118,7 +118,7 @@ $ nucmer /path/to/ref.fa /path/to/qry.fa
 $ show-coords out.delta
 ```
 
-#### [SAMTOOLS](http://www.htslib.org/) - Extract part of a genome sequence using 'samtools faidx' (this will extract from contig_id bases 1234 through 5678)
+#### [SAMTools](http://www.htslib.org/) - Extract part of a genome sequence using 'samtools faidx' (this will extract from contig_id bases 1234 through 5678)
 
 ```
 $ ./samtools faidx /path/to/genome.fa contig_id:1234-5678
