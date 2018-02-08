@@ -25,7 +25,7 @@ Make sure to look at all of the reads for the coverage analysis and kmer analysi
 
 - Question 1a. How long is the reference genome? [Hint: Try `samtools faidx`]
 - Question 1b. How many reads are provided and how long are they? Make sure to measure each file separately [Hint: Try `FastQC`]
-- Question 1c. How much coverage do you expect to have? 
+- Question 1c. How much coverage do you expect to have? [Hint: A little arthimetic]
 - Question 1d. Plot the average quality value across the length of the reads [Hint: Screenshot from `FastQC`]
 
 #### Question 2. Kmer Analysis [10 pts]
@@ -36,13 +36,13 @@ otherwise your analysis will not correctly account for the fact that your reads 
 - Question 2a. How many kmers occur exactly 50 times? [Hint: try `jellyfish histo`]
 - Question 2b. What are the top 10 most frequently occurring kmers [Hint: try `jellyfish dump` along with `sort` and `head`]
 - Question 2c. What is the estimated genome size based on the kmer frequencies? [Hint: upload the jellyfish histogram to [GenomeScope](http://genomescope.org)]
-- Question 2d. How well does the GenomeScope genome size estimate compare to the reference genome?
+- Question 2d. How well does the GenomeScope genome size estimate compare to the reference genome? [Hint: In a sentence or two]
 
 #### Question 3. De novo assembly [10 pts]
 
 Assemble the reads using `Spades`. Spades will *not* run on Mac or Windows, you must use a linux environment.
 
-- Question 3a. How many contigs were produced? [Hint: try `grep -c '>' contigs.fa`]
+- Question 3a. How many contigs were produced? [Hint: try `grep -c '>' contigs.fasta`]
 - Question 3b. What is the total length of the contigs? [Hint: try `samtools faidx`, plus a short script/excel]
 - Question 3c. What is the size of your large contig? [Hint: check `samtools faidx` plus `sort -n`]
 - Question 3d. What is the contig N50 size? [Hint: Write a short script, or use excel]
@@ -75,14 +75,15 @@ If you submit after this time, you will start to use up your late days. Remember
 
 ### Resources
 
-#### Bioconda
+
+#### [Bioconda](https://bioconda.github.io/) - Package manager for bioinformatics software
 
 I *highly* recommend that you use bioconda to install the packages rather than installing from source. Once bioconda is configured,
 all of the needed tools can be installed using:
 
 ```
 $ conda install fastqc jellyfish 
-
+```
 
 #### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - Raw read quality assessment
 
