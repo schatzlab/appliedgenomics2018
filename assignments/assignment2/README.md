@@ -40,7 +40,7 @@ otherwise your analysis will not correctly account for the fact that your reads 
 
 #### Question 3. De novo assembly [10 pts]
 
-Assemble the reads using `Spades`. Spades will *not* run on Mac or Windows, you must use a linux environment.
+Assemble the reads using `Spades`. Spades will *not* run on Mac or Windows, you must use a linux environment. 
 
 - Question 3a. How many contigs were produced? [Hint: try `grep -c '>' contigs.fasta`]
 - Question 3b. What is the total length of the contigs? [Hint: try `samtools faidx`, plus a short script/excel]
@@ -105,6 +105,9 @@ $ jellyfish histo mer_counts.jf > reads.histo
 GenomeScope is a web-based tool so there is nothing to install. Hooray! Just make sure to use the `-C` when running jellyfish count so that the reads are correctly processed.
 
 ####  [Spades](http://cab.spbu.ru/software/spades/2) - Short Read Assembler. Note: Only works under linux
+
+Normally spades would try several values of k and merge the results together, but here we will force it to just use k=31 to save time. The assembly
+should take about 30 minutes to 1 hour.
 
 ```
 $ spades.py --pe1-1 frag180.1.fq --pe1-2 frag180.2.fq --mp1-1 jump2k.1.fq --mp1-2 jump2k.2.fq -o asm -t 4 -k 31
