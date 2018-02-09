@@ -15,6 +15,9 @@ Some of the tools you will need to use only run in a linux environment. Spades, 
 even though it will compile. If you do not have access to a linux machine, download and install a virtual 
 machine following the directions here: https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/virtualbox.md
 
+Alternatively, you might also want to try out this docker instance that has these tools preinstalled: 
+https://github.com/srivathsapv/wga-essentials
+
 
 #### Question 1. Coverage Analysis [10 pts]
 
