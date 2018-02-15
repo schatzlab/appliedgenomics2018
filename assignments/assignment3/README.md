@@ -30,6 +30,40 @@ TTGA
 
 ### Question 2. Phylogenetics Analysis [10 pts]
 
+Your colleague is developing an experimental and computational protocol to determine the species present in food samples based on DNA sequencing. (See [here](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-639) for a technology working towards making this a reality!) She extracted DNA from a mixed-meat sausage and prepared a library for paired-end 100bp Illumina sequencing. When the data returns, she uses a short-read aligner such as Bowtie2 or BWA to align the sequencing reads. As the references, she chose several genomes of animals whose meat is commonly consumed, including chicken and pig and cow. Most of the reads align to these common genomes. Next, she extracts the unmapped reads and runs a short-read assembler such as Spades on those reads. She only gets a few contigs that are longer than a few hundred base pairs. 
+
+**1. Suggest two reasons there are only a few, short contigs assembled from non-mapping reads. (2)**
+
+She asks for your help in finding the origin of these "mystery meat" contigs. Fortunately you are familiar with genomic databases and offer to help her out. You use query the NCBI's database of reference genome assemblies with the longest contigs using the [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) tool which finds local sequence alignments between your sequence and a database. One contig you examine has several high E-value alignments to scaffolds in the *Macropus eugenii* genome assembly. Two of the alignments are in annotated gene regions. However, the [wallaby genome assembly](https://www.ncbi.nlm.nih.gov/assembly/GCA_000004035.1/) seems pretty rough. 
+
+**2. Based on the link above, give two indicators that this genome assembly is poor quality. (2)** 
+
+Because the assembly is rough, you are suspicious that the contig has more than one alignment. It overlaps more than one annotated gene. Could there be a duplicated region or misassembly in the reference genome? Or does the tammar wallaby actually have genes that are similar enough for your contig to align to both?
+
+*Homologous* genes are genes with a *shared evolutionary history*. Homologous genes in the same genome arise from a *gene duplication event* long ago in evolution. Homologous genes in the same genome are called *paralogs*
+. Paralogs usually have detectable sequence similarity, so it is possible that ENSMEUG00000000695 and ENSMEUG00000000691 (the annotated genes within two of this contig's alignments) are paralogs. You decide to build a phylogenetic tree of these genes, as well as some sequences from other species to see whether these genes are paralogs.
+
+Here are some protein sequences of some hits from a blastx search including the two sequences from *M. eugenii*. [multiplePROT.fa](multiplePROT.fa) Some proteins are annotated "hemoglobin epsilon" and others are annotated "hemoglobin beta" (B and E in the sequence names in the file). 
+
+**3.** Use the web version of [MUSCLE](https://www.ebi.ac.uk/Tools/msa/muscle/) to create a multiple sequence alignment. The tool outputs a neighbor-joining, binary phylogenetic tree. Because MUSCLE's built in tree graphic is very poor, download the data in Newick format, and open the file in visualization software such as [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) or a browser-based tool such as [Trex](http://www.trex.uqam.ca/index.php?action=newick). Include an image of the tree in your report. Feel free to explore a variety of visualization options, but just make sure the leaf labels are readable and the branches have proportional length.
+
+**a. What do the leaves of the tree represent? Is the tree rooted or unrooted? (1)**
+
+**b. Propose a location for the root of the tree, and justify your answer. (Mark it on the image of the tree) (1)**
+
+**c. Do you think the "B" and "E" genes are paralogs? Justify your answer by referring to the tree. (2)**
+
+Here is the output from MrBayes, a Bayesian MCMC tree algorithm, run on the same protein sequences.
+
+![](assignment3.nex.txt.con.tre.png)
+Large numbers = posterior probabilities  
+Small numbers = branch lengths
+
+**e. Does the output have an equivalent topology to your neighbor-joining tree from MUSCLE? (1)**
+
+**f. What does the branch length in both trees indicate about *M.eugenii*, *M.giganteus*, and *M.rufus*? (1)**
+
+It may not be reassuring that there is evidence of *M.eugenii* DNA in this sausage. Hopefully it's contamination, but the story of how the sample got contaminated would be interesting, to say the least! Now on to investigate the other contigs.
 
 ### Question 3. BWT Encoding [10 pts]
 
