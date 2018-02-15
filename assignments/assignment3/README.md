@@ -67,7 +67,7 @@ It may not be reassuring that there is evidence of *M.eugenii* DNA in this sausa
 
 ### Question 3. BWT Encoding [10 pts]
 
-Linear time methods exist for computing the BWT, although for this assignment you can use the simple method based on standard sorting techniques. Your solution does *not* need to be an optimal algorithm and can use O(n^2) space and O(n^2 lg n) time. 
+In the language of your choice, implement a BWT encoder and encode the string below. Linear time methods exist for computing the BWT, although for this assignment you can use the simple method based on standard sorting techniques. Your solution does *not* need to be an optimal algorithm and can use O(n^2) space and O(n^2 lg n) time. 
 
 Here is the recommended pseudo code (make sure to submit your code as well as the encoded string):
 
@@ -99,6 +99,8 @@ I_am_fully_convinced_that_species_are_not_immutable;_but_that_those_belonging_to
 
 
 ### Question 4. BWT Decoder [10 pts]
+
+In the language of your choice, implement a BWT decoder and decode the string below. 
 
 One of the essential properties of the BWT is that it can be decoded back into the source text without any other additional information. This is accomplished by iteratively applying the Last-First property starting with the first character of the BWT until reaching the end of string character `'$'`. The Last-First property states there is an equivalence between the ith occurrence of a character in the first column and the ith occurrence of that character in the last column. This equivalence can be evaluated by counting how many occurrences of a character are present in the BWT string (the last column of the BWM) or by counting characters in the first column (which you will have to determine from the BWT itself). Again, faster methods exist (the FM-index) to determine the rank of each character but you can just count it explicitly here
 
@@ -134,17 +136,4 @@ solving the question. Submit your solutions by uploading the PDF to [Blackboard]
 
 If you submit after this time, you will start to use up your late days. Remember, you are only allowed 4 late days for the entire semester!
 
-
-
-### Resources
-
-
-#### [Bioconda](https://bioconda.github.io/) - Package manager for bioinformatics software
-
-I *highly* recommend that you use bioconda to install the packages rather than installing from source. Once bioconda is configured,
-all of the needed tools can be installed using:
-
-```
-$ conda install fastqc jellyfish spades mummer samtools
-```
 
