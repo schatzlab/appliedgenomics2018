@@ -1,4 +1,4 @@
-## Assignment 2: Genome Assembly
+## Assignment 3: Genome Assembly, Phylogenetics, and the BWT
 Assignment Date: Thursday, Feb. 15, 2018 <br>
 Due Date: Thursday, Feb. 22, 2018 @ 11:59pm <br>
 
