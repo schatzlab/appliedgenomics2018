@@ -59,9 +59,9 @@ Here is the output from MrBayes, a Bayesian MCMC tree algorithm, run on the same
 Large numbers = posterior probabilities  
 Small numbers = branch lengths
 
-**e. Does the output have an equivalent topology to your neighbor-joining tree from MUSCLE? (1)**
+**d. Does the output have an equivalent topology to your neighbor-joining tree from MUSCLE? (1)**
 
-**f. What does the branch length in both trees indicate about *M.eugenii*, *M.giganteus*, and *M.rufus*? (1)**
+**e. What does the branch length in both trees indicate about *M.eugenii*, *M.giganteus*, and *M.rufus*? (1)**
 
 It may not be reassuring that there is evidence of *M.eugenii* DNA in this sausage. Hopefully it's contamination, but the story of how the sample got contaminated would be interesting, to say the least! Now on to investigate the other contigs.
 
