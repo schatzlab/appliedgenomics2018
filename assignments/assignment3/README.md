@@ -122,7 +122,7 @@ decodeBWT(String bwt)
 
 String to decode:
 ```
-ex.uspe_gr_______$!!,e.orrs,sdddeedkdsuoden-tf,tyewtktttt,sewteb_ce__ww__h_PPsm_u_naseueeennnrrlmwwhWcrskkmHwhttv_no_nnwttzKt_l_ocoo_be___aaaooaAakiiooett_oooi_sslllfyyD__uouueuceetenagan___rru_aasanIiatt__c__saacooor_ootjeae______ir__a
+.uspe_gexr_______$..,e.orrs,sdddeedkdsuoden-tf,tyewtktttt,sewteb_ce__ww__h_PPsm_u_naseueeennnrrlmwwhWcrskkmHwhttv_no_nnwttzKt_l_ocoo_be___aaaooaAakiiooett_oooi_sslllfyyD__uouuueceetenagan___rru_aasanIiatt__c__saacooor_ootjeae______ir__a
 ```
 
 Hint: use your sourcecode from Q3 to debug Q4. Also start with simple strings like GATTACA or your own name.
