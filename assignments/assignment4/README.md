@@ -7,7 +7,7 @@ Due Date: Thursday, Mar. 1, 2018 @ 11:59pm
 In this assignment, you will align reads to a reference genome to call SNPs and short indels. Then, you will perform an experiment to empirically determine the "mappability" of a genomic region. Finally, you will investigate some empirical behavior of the binomial test for heterozygous variant calling.  
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/jcumooljtd46p7). Don't forget to read the **Resources** section at the bottom of the page!
 
-### Question 1. Small Variant Analysis [XX pts]
+### Question 1. Small Variant Analysis [10 pts]
 
 Download chromosome 22 from build 38 of the human genome from here:  
 [http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
@@ -30,7 +30,7 @@ For this question, you may find this tutorial helpful:
 - 1d. Does the sample have any nonsense or missense mutations?  
 [Hint: try the [Variant Effect Predictor](http://useast.ensembl.org/Tools/VEP) using the `Gencode basic transcripts`]
 
-### Question 2. Read Mapping Uncertainty [XX pts]
+### Question 2. Read Mapping Uncertainty [10 pts]
 
 For the region chr22:21000000-22000000 of the reference sequence for chromosome 22, extract every substring of length 35. Format the substrings as a FASTA file and use read names that indicate the origin. (No need to construct quality values or read pairs: use bowtie2 with `-f` and `-U` respectively). Make a new index and align these "reads" to chr22:21000000-22000000.  
 [Hint: On the command line or in a script, load the sequence once and extract substrings in a loop.]
@@ -46,7 +46,7 @@ For the region chr22:21000000-22000000 of the reference sequence for chromosome 
 
 - 2e. What do you observe about how well reads map within this region of chromosome 22? Look at the UCSC Genome Browser [umap24Quantitative](https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=umap) "mappability" track in this region, and qualitatively compare the results from your plot to the track.  
 
-### Question 3. Binomial Distribution [XX pts]
+### Question 3. Binomial Distribution [10 pts]
 
 - 3a. For coverage n = 10 to 200, calculate the maximum number of minor allele reads (round down) that would make your one-sided binomial test reject the null hypothesis p=0.5 at 0.05 significance. Plot coverage on the x-axis and (number of reads)/(depth) on the y-axis.
 
