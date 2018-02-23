@@ -48,7 +48,7 @@ For the region chr22:21000000-22000000 of the reference sequence for chromosome 
 
 ### Question 3. Binomial Distribution [10 pts]
 
-- 3a. For coverage n = 10 to 200, calculate the maximum number of minor allele reads (round down) that would make your one-sided binomial test reject the null hypothesis p=0.5 at 0.05 significance. Plot coverage on the x-axis and (number of reads)/(depth) on the y-axis.
+- 3a. For coverage n = 10 to 200, calculate the maximum number of minor allele reads (round down) that would make your one-sided binomial test reject the null hypothesis p=0.5 at 0.05 significance. Plot coverage on the x-axis and (number of reads)/(coverage) on the y-axis.
 
 - 3b. What asymptote does the plot seem to approach? Why is this?
 
