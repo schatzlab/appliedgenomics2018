@@ -15,6 +15,7 @@ We will study the leading computational and quantitative approaches for comparin
   - [Rosalind Bioinformatics Programming in Python](http://rosalind.info/problems/locations/)
   - [Minimal Make](http://kbroman.org/minimal_make/)
 - Access to a Linux Machine, and/or Install [VirtualBox](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/virtualbox.md) (Unfortuantely, even Mac will not work correctly for some programs)
+  - Alternatively, you can try to use Docker. This has the tools you need preinstalled: https://github.com/srivathsapv/wga-essentials
 
 ## Course Resources:
 - [Spring 2017 Course Materials](https://github.com/schatzlab/appliedgenomics2017)
