@@ -30,9 +30,9 @@ In homework 4, you aligned a set of reads to **chromosome 22** and used freebaye
 
 #### Question 3. Structural Variation Analysis [10 pts]
 
-Run the structural variant caller [lumpy-sv](https://github.com/arq5x/lumpy-sv) for the reads you were analyzing in homework 4 [here](lumpy.vcf). `lumpy-sv` uses split-read alignments and discordant alignments to find breakpoints. See the **Resources** section for more detailed instructions.
+Run the structural variant caller [lumpy-sv](https://github.com/arq5x/lumpy-sv) for the reads you were analyzing in homework 4 [here](http://schatzlab.cshl.edu/data/teaching/sample.tgz). `lumpy-sv` uses split-read alignments and discordant alignments to find breakpoints. See the **Resources** section for more detailed instructions.
 
-- Question 3a. How many structural variations are in the sample were found by `lumpy-sv`? How many of these are duplications, inversions, insertions, and deletions, respectively? 
+- Question 3a. How many structural variations in the sample are found by `lumpy-sv`? How many of these are duplications, inversions, insertions, and deletions, respectively? 
 
 - Question 3b. Create a BED file with the SV breakpoints based on the information in the lumpy.vcf file. Which genes have structural variation breakpoints in them? [Hint: `bedtools`]
 
@@ -92,8 +92,12 @@ chmod +x extractSplitReads_BwaMem
 ```
 
 ```
+# Index the genome
+$ bwa index chr22.fa
 # Realign the reads with bwa mem
 $ bwa mem -R "@RG\tID:id\tSM:sample\tLB:lib" chr22.fa sample/pair.1.fq sample/pair.2.fq > bwa.sam
+# Convert to BAM
+$ samtools view -S -b bwa.sam > bwa.bam
 # Extract the discordant paired-end alignments.
 $ samtools view -b -F 1294 bwa.sam > sample.discordants.unsorted.bam
 
