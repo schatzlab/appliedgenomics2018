@@ -131,6 +131,10 @@ conda install cnvkit
 
 ```
 samtools sort bwa.sam | samtools view -b > bwa.bam
+# Build an index of chr22.fa entitled chr22.cnn based on bwa.bam
 cnvkit.py batch -m wgs -f chr22.fa --output-reference chr22.cnn -n bwa.bam
+# Run the program on bwa.bam using the index you just created
+cnvkit.py batch bwa.bam -m wgs --reference chr22.cnn
+# Make the scatterplot
 cnvkit.py scatter -s bwa.cn{s,r} -c chr22:20000000-30000000 -o scatterchr22.pdf
 ```
