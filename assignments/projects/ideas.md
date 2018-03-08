@@ -86,7 +86,10 @@ Here are a few selected projects organized by theme, although you are also free 
 5. Accelerate an important genomics pipeline using GPUs or cloud computing and use that to study a larger dataset
 [Rail-RNA](https://academic.oup.com/bioinformatics/article-abstract/doi/10.1093/bioinformatics/btw575/2525684/Rail-RNA-Scalable-analysis-of-RNA-seq-splicing-and)
 
-6. Develop a novel visualization of genomics data:
+6. Benchmark and/or develop a method for inferring the ethnicity of an individual from their genotype:
+[Genealogical DNA test](https://en.wikipedia.org/wiki/Genealogical_DNA_test)
+
+7. Develop a novel visualization of genomics data (especially from 23-and-me reports):
 [Circos](http://genome.cshlp.org/content/19/9/1639.full)
 
 
