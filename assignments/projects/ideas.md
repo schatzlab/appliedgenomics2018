@@ -102,4 +102,7 @@ Here are a few selected projects organized by theme, although you are also free 
 [Regulatory control of software](http://www.pnas.org/content/107/20/9186.abstract), 
 [Minimal Binary Executables](http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html)
 
-## Or your own idea! This should be more than you are already doing for your PhD work, but can be a novel twist to a dataset/idea you are already using. If you have a research idea but not the right data, let me know and I'll help you find some
+
+## Or your own idea! 
+
+This should be more than you are already doing for your PhD work, but can be a novel twist to a dataset/idea you are already using. If you have a research idea but not the right data, let me know and I'll help you find some
