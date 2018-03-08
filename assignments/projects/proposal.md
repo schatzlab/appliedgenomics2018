@@ -4,7 +4,7 @@ Due Date: Thursday, March 15, 2017 @ 11:59pm <br>
 
 Review the [Project Ideas](https://github.com/schatzlab/appliedgenomics2017/blob/master/assignments/projects/projectides.md) page
 
-Work solo or form a team for your class project (no more than 3 people to a team) 
+Work solo or form a team for your class project (no more than 3 people to a team). 
 
 The proposal should have the following components:
 - Name of your team
@@ -14,7 +14,7 @@ The proposal should have the following components:
 - References to relevant papers
 - References/URLs to datasets that you will be studying (Note you can also use simulated data)
 
-After submitting your proposal, we will schedule a time to discuss your proposal, especially to ensure you have access to the data that you need. 
+Submit the proposal as a single page PDF on blackboard. After submitting your proposal, we will schedule a time to discuss your proposal, especially to ensure you have access to the data that you need. 
 The sooner that you submit your proposal, the sooner we can schedule the meeting. No late days can be used for this project.
 
 Later, you will present your project in class during the last week of class. You will also submit a written report (5-7 pages) of your project, 
