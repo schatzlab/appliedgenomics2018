@@ -2,7 +2,7 @@
 Assignment Date: March 7, 2018 <br>
 Due Date: Thursday, March 15, 2017 @ 11:59pm <br>
 
-Review the [Project Ideas](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/ides.md) page
+Review the [Project Ideas](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/ideas.md) page
 
 Work solo or form a team for your class project (no more than 3 people to a team). 
 
