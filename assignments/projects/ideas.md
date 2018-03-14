@@ -93,7 +93,7 @@ Here are a few selected projects organized by theme, although you are also free 
 7. Develop a novel visualization of genomics data (especially from 23-and-me reports):
 [Circos](http://genome.cshlp.org/content/19/9/1639.full)
 
-8. Apply metagenomics approaches to identifying species present in food samples. [AllFoodSeq](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btw822) [Centrifuge](genome.cshlp.org/content/26/12/1721.full)
+8. Apply metagenomics approaches to identifying species present in food samples or correlated with other diseases. [AllFoodSeq](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btw822) [Centrifuge](genome.cshlp.org/content/26/12/1721.full)
 
 9. Investigate the rate of heterozygosity within and among human populations using consortium data. [Variation in Heterozygosity Predicts...](http://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0063048.g001)
 
