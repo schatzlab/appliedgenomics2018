@@ -33,7 +33,7 @@ Therefore your RNAseq experiment will be a small sampling of the full compositio
 sample of the total population, but if your sample is very unlucky or biased it may not represent the true distribution. We will explore
 this concept by sampling a small subset of transcripts (1000 to 5000) out of a much larger set (1M) so that you can evaluate this bias.
 
-In [this file]() with 1,000,000 lines we provide an abstraction of RNA-seq data where normalization has been performed and 
+In [this file](data1.txt) with 1,000,000 lines we provide an abstraction of RNA-seq data where normalization has been performed and 
 the number of times a gene name occurs corresponds to the number of transcripts sequenced.
 
 a. Randomly sample 1000 rows. Do this simulation 10 times and record the relative abundance of each of the 15 genes. Plot the mean vs. variance.
@@ -48,7 +48,7 @@ In a few sentences explain how would you normalize the data, and what additional
  
 #### Question 3. Differential Expression [10 pts]
 
-a. Using the file from question 1 along with [this file](), randomly sample 1000 rows from each file. 
+a. Using the file from question 1 along with [this file](data2.txt), randomly sample 1000 rows from each file. 
 Sample 5 times for each file (this emulates making experimental replicates) and conduct a paired t-test for 
 differential expression of each of the 15 genes. Which genes are significantly differentially expressed at the 0.05 level?
 
