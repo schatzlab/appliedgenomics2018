@@ -45,7 +45,7 @@ c. Is the variance greater in (a) or (b)?, and explain why. What is the relation
 d. Suppose you had received data where the number of times a gene name occurs corresponds to the number of reads mapped to that gene. 
 In a few sentences explain how would you normalize the data, and what additional information would you need? [Hint: why is read count not enough?]
 
-
+ 
 #### Question 3. Differential Expression [10 pts]
 
 a. Using the file from question 1 along with [this file](), randomly sample 1000 rows from each file. 
