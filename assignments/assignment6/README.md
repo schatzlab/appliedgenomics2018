@@ -5,7 +5,7 @@ Due Date: Thursday, March 29, 2018 @ 11:59pm
 ### Assignment Overview
 
 In this assignment, you will analyze gene expression data and learn how to make several kinds of plots in the environment of your choice. 
-(We suggest Python or R.) **Make sure to show your work/code in your writeup! ** As before, any questions about the assignment should be posted to 
+(We suggest Python or R.) **Make sure to show your work/code in your writeup!** As before, any questions about the assignment should be posted to 
 [Piazza](https://piazza.com/class/jcumooljtd46p7).
 
 
