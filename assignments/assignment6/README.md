@@ -48,7 +48,7 @@ In a few sentences explain how would you normalize the data, and what additional
  
 #### Question 3. Differential Expression [10 pts]
 
-a. Using the file from question 1 along with [this file](data2.txt), randomly sample 1000 rows from each file. 
+a. Using the file from question 2 along with [this file](data2.txt), randomly sample 1000 rows from each file. 
 Sample 5 times for each file (this emulates making experimental replicates) and conduct a paired t-test for 
 differential expression of each of the 15 genes. Which genes are significantly differentially expressed at the 0.05 level?
 
