@@ -7,23 +7,24 @@ Presentations will be a total of 15 minutes: 12 minutes for the presentation, fo
 
 Day     | Time      | Team Name               | Students                                   | Title 
 --------|-----------|-------------------------|--------------------------------------------|---------------------------------------------------------------------
-Th 4/26 | 1:30-1:45 | | |
-Th 4/26 | 1:45-2:00 | | |
-Th 4/26 | 2:00-2:15 | | |
-Th 4/26 | 2:15-2:30 | | |
-Th 4/26 | 2:30-2:45 | | |
+Th 4/26 | 1:30-1:45 | Vishwanath|Pranay Vishwanath|ChromHMM on plant genomes
+Th 4/26 | 1:45-2:00 | miniMSA|Nathan Roach|Minimizer accelerated clustering and MSA of highly similar sequences 
+Th 4/26 | 2:00-2:15 | Chromo|Ashlee Feng |Identifying Sequence-Specific Open Chromatin Regulators and Applications on Noncoding Variant Analysis
+Th 4/26 | 2:15-2:30 | ZX Team|Zhuwei Xu|Analysis of the Performance of MinMash algorithm for Copy Number Analysis by Pacbio reads in C. glabrata
+Th 4/26 | 2:30-2:45 | The inTIMPidators|"Roham Razaghi,  Timothy Gilpatrick"|Using nanopore sequencing data to examine Allele-specific expression and methylation patterns 
    .    |     .     |            .            |                       .                    |                              .
-Tu 5/2  | 1:30-1:45 | | |
-Tu 5/2  | 1:45-2:00 | | |
-Tu 5/2  | 2:00-2:15 | | |
-Tu 5/2  | 2:15-2:30 | | |
-Tu 5/2  | 2:30-2:45 | | |
+Tu 5/2  | 1:30-1:45 |Chesapeake Bay Explorer|"Zhuoyue Zhang, Junyao Gu"|A metagenomic-based survey of microbial (de)halogenation potential in the Chesapeake Bay
+Tu 5/2  | 1:45-2:00 | Binomics|Benjamin Kaminow |Analysis of Repeat Bits in Binaries Using DNA Short Read Assembly 
+Tu 5/2  | 2:00-2:15 | Cao|Raymon Cao|Evaluating Metagenomic Classification Software for Identifying Food Sample Contaminations
+Tu 5/2  | 2:15-2:30 | Padhy|Shreyas Padhy |Deep Recurrent Networks for Base-Calling 
+Tu 5/2  | 2:30-2:45 | Ray Charles Driving School Class of 2020|"Diego Gelsinger, Michael Skaro, Andrew Gale"|Benchmarking of RNA-seq Analysis Pipelines using Circulating Tumor Expression Data
    .    |     .     |            .            |                       .                    |                              .
-Th 5/4  | 1:30-1:45 | | |
-Th 5/4  | 1:45-2:00 | | |
-Th 5/4  | 2:00-2:15 | | |
-Th 5/4  | 2:15-2:30 | | |
-Th 5/4  | 2:30-2:45 | | |
+Th 5/4  | 1:30-1:45 | Araba-cadabra |Michael Alonge |Pairwise Pan-Genome Structural Variant Detection in _Arabidopsis thaliana_ Genomes 
+Th 5/4  | 1:45-2:00 | Xi|Wang Xi|"Systemic evaluation of ChromHMM and Segway, and chromatin state analysis on diploid human genome. "
+Th 5/4  | 2:00-2:15 | ReAlign|Ales Varabyou |Graph genome assisted realignment of short-read sequencing data for small highly divergent genomes. 
+Th 5/4  | 2:15-2:30 | KrisprKreme |Srivathsa Pasumarthi|On-target activity prediction of sgRNA in CRISPR/CAS9 using Deep Neural Networks
+Th 5/4  | 2:30-2:45 | Insertion Short|Michael Kirsche |Short-read Known Insertion Detection 
+Th 5/4  | 2:45-3:00 | Gray|Justin Gray|Finding Gene Regulatory Pathways Shared Between Dormant Tumor Cells 
     
 <br>
 <br>
