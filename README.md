@@ -69,4 +69,4 @@ We will study the leading computational and quantitative approaches for comparin
 |24. | Th 4/26| [Project Presentations](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/presentations.md) | | [Project Presentations](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/presentations.md)
 |25. | Tu 5/1  | [Project Presentations](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/presentations.md) | | [Project Presentations](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/presentations.md)
 |26. | Th 5/3  | [Project Presentations](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/presentations.md) | | [Project Presentations](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/presentations.md)
-|27. | Wed 5/16 | Final Project Report Due! | | [Final Project Report]()
+|27. | Wed 5/16 | Final Project Report Due! | | [Final Project Report](https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/projects/finalreport.md)
