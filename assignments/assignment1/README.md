@@ -23,7 +23,7 @@ Download the chomosome size files for the following genomes (Note these have bee
 7. [Worm (Caenorhabditis elegans, ce10)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/ce10.chrom.sizes) - One of the most important animal model species [[info]](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
 8. [Yeast (Saccharomyces cerevisiae, sacCer3)](http://schatz-lab.org/appliedgenomics2018/assignments/assignment1/yeast.chrom.sizes) - an important eukaryotic model species, also good for bread and beer [[info]](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)
 
-Using these files, make a spreadsheet/table with the following information per species:
+Using these files, make a table with the following information per species:
 
 - Question 1.1. Total genome size
 - Question 1.2. Number of chromosomes
@@ -41,6 +41,15 @@ Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/a
 - Question 2.3. Make a histogram of the number of genomic bins of a given %GC: x-axis = %GC, y-axis = # genomic bins with this %GC
 - Question 2.4. Recall that Illumina sequencing performs poorly when the %GC is <= 30% or >= 65%. Based on the analysis from Q2.2, what fraction of the genome do you expect to sequence poorly?
 
+
+### Hints
+
+- Many of the questions can be addressed with standard command line tools such as grep, wc, awk, sort, fold, etc
+- You may wish to try out [datamash](https://www.gnu.org/software/datamash/)
+- You may find [samtools](http://www.htslib.org/) and especially `samtools faidx` helpful for indexing the fasta files
+- Plotting can be done in any language; R or Python are recommended; Excel is okay but ugly :-P
+- The final PDF can be made in any system: Markdown, Word, Google Docs, LaTeX, HTML
+- Be sure to clearly mark each question and subquestion
 
 
 ### Packaging
