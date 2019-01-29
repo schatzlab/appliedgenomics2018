@@ -38,7 +38,7 @@ Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/a
 
 - Question 2.1. How many As, Cs, Gs, Ts are found in the entire genome
 - Question 2.2. Make a scatterplot of the %GC of 100bp windows across the genome: x-axis = genome location, y-axis = (#G + #C) / 100. For this analysis the chromsomes can be concatenated together to form a long string of the chromosomes in numerical order: chr1, chr2, ... chrN. Make sure to draw a bar to indicate the ends of chromosomes
-- Question 2.3. Make a histogram of the number of genomic bins of a given %GC
+- Question 2.3. Make a histogram of the number of genomic bins of a given %GC: x-axis = %GC, y-axis = # genomic bins with this %GC
 - Question 2.4. Recall that Illumina sequencing performs poorly when the %GC is <= 30% or >= 65%. Based on the analysis from Q2.2, what fraction of the genome do you expect to sequence poorly?
 
 
@@ -46,10 +46,10 @@ Download the yeast genome from here: http://schatz-lab.org/appliedgenomics2018/a
 ### Packaging
 
 The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
-all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands you used for 
-solving the question. Submit your solutions by uploading the PDF to [Blackboard](https://blackboard.jhu.edu/webapps/blackboard/execute/modulepage/view?course_id=_154055_1&cmp_tab_id=_385853_1&editMode=true&mode=cpview). 
+all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands and/or code snippets you used for 
+solving the question. You do not need to show code for plotting. Submit your solutions by uploading the PDF to [GradeScope](https://www.gradescope.com/courses/38893). The Entry Code is: 9PYYY5 
 
-If you submit after this time, you will start to use up your late days. Remember, you are only allowed 4 late days for the entire semester!
+If you submit after this time, you will start to use up your late days. Remember, you are only allowed 4 late days (96 hours) for the entire semester!
 
 
 
